@@ -1,0 +1,10 @@
+n = int(input())
+
+unique_words = set()
+
+for i in range(n):
+    line = input().split()
+    for word in line:
+        unique_words.add(word)
+
+print(len(unique_words))
